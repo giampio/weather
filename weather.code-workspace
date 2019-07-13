@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"name": "Backend",
+			"path": "backend"
+		},
+		{
+			"name": "Frontend",
+			"path": "frontend"
+		}
+	],
+	"settings": {
+		"npm.enableScriptExplorer": true,
+		"typescript.preferences.importModuleSpecifier": "non-relative",
+		"files.exclude": {
+			"**/node_modules": true,
+			"**/.vscode": true,
+            "**/.*": true
+		},
+		"editor.codeActionsOnSave": {
+            "source.fixAll.tslint": true
+      },
+	  "editor.formatOnSave": false
+	},	
+	"recommendations": [
+		"msjsdiag.debugger-for-chrome",
+		"hbenl.vscode-firefox-debug",
+		"editorconfig.editorconfig",
+		"ms-vscode.vscode-typescript-tslint-plugin",
+		"waderyan.nodejs-extension-pack",
+		"eamodio.gitlens"
+	]
+}

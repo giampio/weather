@@ -1,0 +1,7 @@
+.vscode/launch.json
+/log.log
+/backend/static
+/backend/node_modules
+/backend/static
+/frontend/node_modules
+/frontend/dist

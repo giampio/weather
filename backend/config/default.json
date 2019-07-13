@@ -1,0 +1,27 @@
+{
+  "server": {
+    "port": 8080
+  },
+  "database": {
+    "dbname": "weather",
+    "username": "weather",
+    "password": "12345678",
+    "options": {
+      "host": "localhost",
+      "dialect": "mysql",
+      "operatorsAliases": false,
+      "pool": {
+        "max": 5,
+        "min": 0,
+        "idle": 10000
+      },
+      "dialectOptions": {
+        "dateStrings": true,
+        "typeCast": true
+      },
+      "timezone": "Europe/Rome"
+    }
+  },
+  "crypto": "abcdef",
+  "debug": true
+}

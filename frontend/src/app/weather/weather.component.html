@@ -1,0 +1,26 @@
+<div>
+    <h2>Weathers</h2>
+    <canvas *ngIf="chartData" baseChart [datasets] = "chartData"
+            [labels]="chartLabels"
+            [options]="chartOptions"
+            [chartType]="chartType"
+            [legend]="chartLegend">
+    </canvas>
+
+    <table class="table table-stripped table-sm table-dark">
+      <tr>
+        <th>Id</th>
+        <th>Temperature</th>
+        <th>Humidity</th>
+        <th>CreatedAt</th>
+        <th>UpdatedAt</th>
+      </tr>
+      <tr *ngFor="let weather of weathers">
+          <td>{{ weather.id }}</td>
+          <td>{{ weather.temperature }}</td>
+          <td>{{ weather.humidity }}</td>
+          <td>{{ weather.createdAt }}</td>
+          <td>{{ weather.updatedAt }}</td>
+      </tr>
+    </table>
+</div>
